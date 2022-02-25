@@ -1,0 +1,26 @@
+chmod 400 <path-to-the-file>
+
+chmod 400 /var/mongodb/pki/m103-keyfile
+
+
+chown [new owner]:[group] <file name>
+
+sudo chown myuser:myuser /var/mongodb_directory
+mkdir [modifiers] <name of the directory>
+mkdir -p /db/mongodb_data/
+sudo mkdir -p /var/data
+rm [options] [directory|file]
+rm -rf <directory name>
+ls
+ls -la
+cd <directory>
+cat <name of the file>
+rm <file name>
+ps -ef | grep mongo
+
+ps -ef | grep mongod
+
+ps -ef | grep mongos
+kill <pid>
+kill 13029
+killall mongod
